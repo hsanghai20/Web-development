@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration page</title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+	<!-- name -->
+	<div>
+		<label for="FirstName">First Name:</label>
+		<input id="FirstName" type="text" name="FirstName" placeholder="Harsh" required>
+		<label for="LastName">Last Name:</label>
+		<input id="LastName" type="text" name="LastName" placeholder="Sanghai" required>
+	</div>
+	<!-- about gender -->
+	<div>
+		<label for="Male">Male:</label>
+		<input id="Male" type="radio" name="Gender" value="Male">
+		<label for="Female">Female:</label>
+		<input id="Female" type="radio" name="Gender" value="Female">
+		<label for="Other">Other:</label>
+		<input id="Other" type="radio" name="Gender" value="other">
+	<!-- email id and password -->
+	<div>
+		<label for="email">Email:</label>
+		<input id="email" type="email" name="email" placeholder="your email" required>
+		<label for="password">Password:</label>
+		<input id="password" type="password" name="password" pattern=".{5,10}" required title="Your Password must be between 5 to 10 char">
+	</div>
+	<!-- birthday -->
+	<div>
+		<label for="birthday">Birthday:</label>
+		<select id="birthday" name="month">
+			<option value="">Month</option>
+			<option value="jan">Jan</option>
+			<option value="feb">Feb</option>
+			<option value="mar">Mar</option>
+			<option value="april">April</option>
+		</select>
+		<select id="birthday" name="Day">
+			<option value="">Day</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+		</select>
+		<select id="birthday" name="Year">
+			<option value="">Year</option>
+			<option value="2000">2000</option>
+			<option value="2001">2001</option>
+			<option value="3000">3000</option>
+			<option value="4000">4000</option>
+		</select>
+	</div>
+	<!-- checkbox -->
+	<div>
+		<label for="checkbox">I agree to the terms and conditions</label>
+		<input id="checkbox" type="checkbox" name="check">
+	</div>
+	<!-- final button -->
+	<div>
+		<button>Submit</button>
+	</div> 
+</form>
+</body>
+</html>
