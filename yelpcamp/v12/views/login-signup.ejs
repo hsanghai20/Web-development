@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YelpCamp</title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/login-signup.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="cont">
+    <div class="form sign-in">
+      <h2>Sign In</h2>
+      <form action="/login" method="POST">
+        <label>
+            <span>UserName</span>
+            <input type="text" name="username">
+        </label>
+        <label>
+            <span>Password</span>
+            <input type="password" name="password">
+        </label>
+        <button class="submit">Sign In</button>
+      </form>
+    </div>
+
+    <div class="sub-cont">
+      <div class="img">
+        <div class="img-text m-up">
+          <h2>New here?</h2>
+          <p>Sign up and discover great amount of new opportunities!</p>
+        </div>
+        <div class="img-text m-in">
+          <h2>One of us?</h2>
+          <p>If you already has an account, just sign in. We've missed you!</p>
+        </div>
+        <div class="img-btn">
+          <span class="m-up">Sign Up</span>
+          <span class="m-in">Sign In</span>
+        </div>
+      </div>
+      <div class="form sign-up">
+        <h2>Sign Up</h2>
+        <form action="/register" method="POST">
+            <label>
+                <span>UserName</span>
+                <input type="text" name="username">
+            </label>
+            <label>
+                <span>Password</span>
+                <input type="password" name="password">
+            </label>
+            <button class="submit">Sign Up Now</button>
+        </form>
+      </div>
+    </div>
+  </div>
+<script type="text/javascript" src="stylesheets/login-signup.js"></script>
+</body>
+</html>
