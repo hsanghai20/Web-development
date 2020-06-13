@@ -1,4 +1,6 @@
-v1
+# Link of the app
+* https://yelp-camp-s.herokuapp.com/
+# v1
 # YelpCamp
 *Add Landing Page	
 *Add Campgrounds Page that lists all campgrounds
@@ -24,13 +26,12 @@ Each Campground has:
 *Add a navbar to all templates
 *Style the new campground form
 
-29
 # Databases
 ## Intro to Databases
 * What is a database?
 * SQL vs. NoSQL
 
-v2
+# v2
 # Adding moongoose to our YelpCamp app so that it save all the data
 # Add Mongoose
 *Install and configure mongoose
@@ -43,7 +44,7 @@ v2
 * Show db.collection.drop()
 * Add a show rooute/template
 
-v3
+# v3
 # Refactor mongoose code
 * Create a models directry
 * Use module exports
@@ -154,6 +155,7 @@ v3
 # Dynamic price feature list
 * change schema of campground
 
+# v11_deployed
 # Deploy to heroku
 * First set the git init and commit everything we want in our app to run
 * login to heroku account by using heroku login -i command
