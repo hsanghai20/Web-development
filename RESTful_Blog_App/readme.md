@@ -1,45 +1,46 @@
 
-#RESTful Routing (New mini-project)
-##Introduction
-*Define REST and explain WHY it matters
-*List all  7 RESTful routes
-*Show example of RESTful routing in practice
+# RESTful Routing (New mini-project)
+## Introduction
+* Define REST and explain WHY it matters
+* List all  7 RESTful routes
+* Show example of RESTful routing in practice
+
 REST – a mapping between HTTP routes and CRUD
 
-#Blog Index
-*Setup the Blog App
-*Create the Blog model
-*Add INDEX route and template
+# Blog Index
+* Setup the Blog App
+* Create the Blog model
+* Add INDEX route and template
 * Add Simple Nav Bar
 
-#Basic Layout
-*Add Header and Footer Partials
-*Include Semantic UI
-*Add simple Nav
+# Basic Layout
+* Add Header and Footer Partials
+* Include Semantic UI
+* Add simple Nav
 
-#Putting the C in CRUD
-*Add New route
-*Add New template
-*Add CREATE route
-*Add CREATE template
+# Putting the C in CRUD
+* Add New route
+* Add New template
+* Add CREATE route
+* Add CREATE template
 
-#SHOWtime
-*Add SHOW route and template
-*Add Links to show page
+# SHOWtime
+* Add SHOW route and template
+* Add Links to show page
 * Style show template
 
-#Edit/Update
-*Add EDIT Route
-*Add Edit form
-*Add update route
+# Edit/Update
+* Add EDIT Route
+* Add Edit form
+* Add update route
 * Add update form
 <!-- it is used bcz html doesnt support put and delete request -->
 <!-- we have to install method override and then tell him about _method -->
 * Add method override
 
-#DESTROYYYY
-*ADD DESTROY ROUTE
-*ADD EDIT AND DESTROY LINK
+# DESTROYYYY
+* ADD DESTROY ROUTE
+* ADD EDIT AND DESTROY LINK
 
 ## FINAL UPDATES
 <!-- sanitizer help to make the body pure html so that if anyone writes script tag

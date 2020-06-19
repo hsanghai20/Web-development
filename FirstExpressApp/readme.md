@@ -1,9 +1,9 @@
-package.json file have all the information regarding the author annd
+* Package.json file have all the information regarding the author annd
 all who contributes in the app
-eg : it can also be called as the ingredients required to run our app
+* eg : it can also be called as the ingredients required to run our app
 
 
-express is a framework and it is most trending bcz it is light weight dependencies
+Express is a framework and it is most trending bcz it is light weight dependencies
 so we can fill our logic in many places to clearly make our app run as we want
 
 difference btw framework and library is 
